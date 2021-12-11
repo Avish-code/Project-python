@@ -17,7 +17,7 @@ while True:
     else:
         choice_name = 'scissor'
     print("user choice is: " + choice_name)
-    print("\nNow its computer turn.......")
+    print("\nNow its computer chance")
 
     comp_choice = random.randint(1, 3)
     while comp_choice == choice:
