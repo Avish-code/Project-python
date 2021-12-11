@@ -49,7 +49,7 @@ while True:
   
     
     if result == choice_name:
-        print("<== User wins ==>")
+        print("<== Urvi wins ==>")
     else:
         print("<== Computer wins ==>")
           
@@ -58,3 +58,5 @@ while True:
   
     if ans == 'n' or ans == 'N':
         break
+    else:
+        continue
