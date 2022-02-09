@@ -26,9 +26,9 @@ while True:
     if comp_choice == 1:
         comp_choice_name = 'Rock'
     elif comp_choice == 2:
-        comp_choice_name = 'paper'
+        comp_choice_name = 'Paper'
     else:
-        comp_choice_name = 'scissor'
+        comp_choice_name = 'Scissor'
           
     print("Computer choice is: " + comp_choice_name)
   
@@ -49,14 +49,14 @@ while True:
   
     
     if result == choice_name:
-        print("<== Urvi wins ==>")
+        print("<== YOU WON!!! ==>")
     else:
         print("<== Computer wins ==>")
           
-    print("Do you want to play again? (Y/N)")
+    print("Do you want to play again? (Yes/No)")
     ans = input()
   
-    if ans == 'n' or ans == 'N':
+    if ans == 'no' or ans == 'No':
         break
     else:
         continue
